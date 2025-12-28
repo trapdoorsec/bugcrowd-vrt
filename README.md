@@ -279,9 +279,7 @@ Download the latest from [Bugcrowd's VRT repository](https://github.com/bugcrowd
 
 ## Documentation
 
-- **[Scanner Integration Guide](SCANNER_INTEGRATION.md)** - Complete guide for vulnerability scanner integration
 - **[API Documentation](https://docs.rs/bugcrowd-vrt)** - Full API reference
-- **[Examples Directory](examples/)** - Working code examples
 
 ## Type Safety
 
