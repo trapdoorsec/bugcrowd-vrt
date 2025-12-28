@@ -210,7 +210,7 @@ if let Some(vector) = cvss_mapping.lookup_cvss("sql_injection") {
     println!("Confidentiality: {:?}", vector.confidentiality);
 
     if vector.is_critical() {
-        println!("⚠️  CRITICAL severity!");
+        println!("CRITICAL severity!");
     }
 }
 
@@ -346,12 +346,12 @@ cargo test -- --nocapture
 ```
 
 Test categories:
-- ✅ VRT taxonomy parsing and navigation
-- ✅ CWE mapping and lookups
-- ✅ CVSS v3 parsing and validation
-- ✅ Edge cases (empty data, invalid formats, deep nesting)
-- ✅ Categorization accuracy
-- ✅ Integration examples
+- VRT taxonomy parsing and navigation
+- CWE mapping and lookups
+- CVSS v3 parsing and validation
+- Edge cases (empty data, invalid formats, deep nesting)
+- Categorization accuracy
+- Integration examples
 
 ## Project Structure
 
@@ -406,9 +406,8 @@ MIT License - see [LICENSE](LICENSE) file for details.
 
 ## Support
 
-- 📖 [Documentation](https://docs.rs/bugcrowd-vrt)
-- 💬 [Issues](https://github.com/akses0/bugcrowd-vrt/issues)
-- 📧 Contact: [trapdoorsec.com](https://trapdoorsec.com)
+- [Documentation](https://docs.rs/bugcrowd-vrt)
+- [Issues](https://github.com/akses0/bugcrowd-vrt/issues)
 
 ---
 
